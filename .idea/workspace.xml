@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6747e4-3d79-40ac-a1f9-48712fd4d931" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day2/NoItemsInQueueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day2/QueueIsFullException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day2/QueueSDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day2/QueueSDA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day2/QueueSDATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day2/QueueSDATest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day2/QueueSDA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day2/QueueSDA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/day2/QueueSDATest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/day2/QueueSDATest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,19 +27,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/day2/QueueSDA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="340">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/day2/QueueSDATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="156">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/main/java/day1/zad4/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/day2/NoItemsInQueueException.java" />
         <option value="$PROJECT_DIR$/src/main/java/day2/QueueIsFullException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day2/QueueSDA.java" />
         <option value="$PROJECT_DIR$/src/test/java/day2/QueueSDATest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day2/QueueSDA.java" />
       </list>
     </option>
   </component>
@@ -129,7 +127,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1260" />
@@ -256,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueSDATest.test4_isFullException">
+  <component name="RunManager" selected="JUnit.QueueSDATest">
     <configuration name="QueueSDATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aplikacja" />
       <extension name="coverage">
@@ -272,7 +270,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueSDATest.test1_create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueSDATest.test5_peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aplikacja" />
       <extension name="coverage">
         <pattern>
@@ -282,13 +280,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="day2" />
       <option name="MAIN_CLASS_NAME" value="day2.QueueSDATest" />
-      <option name="METHOD_NAME" value="test1_create" />
+      <option name="METHOD_NAME" value="test5_peek" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueSDATest.test2_addItemToFifo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueSDATest.test6_print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aplikacja" />
       <extension name="coverage">
         <pattern>
@@ -298,13 +296,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="day2" />
       <option name="MAIN_CLASS_NAME" value="day2.QueueSDATest" />
-      <option name="METHOD_NAME" value="test2_addItemToFifo" />
+      <option name="METHOD_NAME" value="test6_print" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueSDATest.test3_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueSDATest.test7_typyGeneryczne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aplikacja" />
       <extension name="coverage">
         <pattern>
@@ -314,13 +312,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="day2" />
       <option name="MAIN_CLASS_NAME" value="day2.QueueSDATest" />
-      <option name="METHOD_NAME" value="test3_exception" />
+      <option name="METHOD_NAME" value="test7_typyGeneryczne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueSDATest.test4_isFullException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueSDATest.test8_addingAndRemovingItems_moreAddsThanCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aplikacja" />
       <extension name="coverage">
         <pattern>
@@ -330,7 +328,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="day2" />
       <option name="MAIN_CLASS_NAME" value="day2.QueueSDATest" />
-      <option name="METHOD_NAME" value="test4_isFullException" />
+      <option name="METHOD_NAME" value="test8_addingAndRemovingItems_moreAddsThanCapacity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueueSDATest.test4_isFullException" />
-        <item itemvalue="JUnit.QueueSDATest.test3_exception" />
         <item itemvalue="JUnit.QueueSDATest" />
-        <item itemvalue="JUnit.QueueSDATest.test2_addItemToFifo" />
-        <item itemvalue="JUnit.QueueSDATest.test1_create" />
+        <item itemvalue="JUnit.QueueSDATest.test8_addingAndRemovingItems_moreAddsThanCapacity" />
+        <item itemvalue="JUnit.QueueSDATest.test7_typyGeneryczne" />
+        <item itemvalue="JUnit.QueueSDATest.test6_print" />
+        <item itemvalue="JUnit.QueueSDATest.test5_peek" />
       </list>
     </recent_temporary>
   </component>
@@ -357,44 +355,44 @@
       <option name="presentableId" value="Default" />
       <updated>1558164198419</updated>
       <workItem from="1558164205049" duration="19859000" />
-      <workItem from="1558250426478" duration="6478000" />
+      <workItem from="1558250426478" duration="10269000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_test_czyPodzielna_v2 - 2019.05.18 at 14h 09m 10s.xml">
-      <configuration name="FizzBuzzTest.test_czyPodzielna_v2" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test5_peek - 2019.05.19 at 11h 23m 47s.xml">
+      <configuration name="QueueSDATest.test5_peek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_test_czyPodzielna_v1 - 2019.05.18 at 14h 12m 12s.xml">
-      <configuration name="FizzBuzzTest.test_czyPodzielna_v1" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test5_peek - 2019.05.19 at 11h 24m 11s.xml">
+      <configuration name="QueueSDATest.test5_peek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_test_czyPodzielna_v1 - 2019.05.18 at 14h 12m 50s.xml">
-      <configuration name="FizzBuzzTest.test_czyPodzielna_v1" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test5_peek - 2019.05.19 at 11h 26m 43s.xml">
+      <configuration name="QueueSDATest.test5_peek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueSDATest_test1_create - 2019.05.19 at 09h 50m 26s.xml">
-      <configuration name="QueueSDATest.test1_create" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test5_peek - 2019.05.19 at 11h 27m 00s.xml">
+      <configuration name="QueueSDATest.test5_peek" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueSDATest_test1_create - 2019.05.19 at 09h 56m 09s.xml">
-      <configuration name="QueueSDATest.test1_create" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test6_print - 2019.05.19 at 11h 44m 48s.xml">
+      <configuration name="QueueSDATest.test6_print" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueSDATest_test2_addItemToFifo - 2019.05.19 at 10h 46m 46s.xml">
-      <configuration name="QueueSDATest.test2_addItemToFifo" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test6_print - 2019.05.19 at 11h 45m 04s.xml">
+      <configuration name="QueueSDATest.test6_print" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueSDATest_test2_addItemToFifo - 2019.05.19 at 11h 02m 54s.xml">
-      <configuration name="QueueSDATest.test2_addItemToFifo" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test6_print - 2019.05.19 at 11h 45m 56s.xml">
+      <configuration name="QueueSDATest.test6_print" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueSDATest_test2_addItemToFifo - 2019.05.19 at 11h 03m 26s.xml">
-      <configuration name="QueueSDATest.test2_addItemToFifo" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test6_print - 2019.05.19 at 11h 47m 53s.xml">
+      <configuration name="QueueSDATest.test6_print" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueSDATest - 2019.05.19 at 11h 07m 22s.xml">
+    <history-entry file="QueueSDATest - 2019.05.19 at 11h 48m 01s.xml">
       <configuration name="QueueSDATest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueSDATest_test3_exception - 2019.05.19 at 11h 12m 21s.xml">
-      <configuration name="QueueSDATest.test3_exception" configurationId="JUnit" />
+    <history-entry file="QueueSDATest_test7_typyGeneryczne - 2019.05.19 at 12h 22m 42s.xml">
+      <configuration name="QueueSDATest.test7_typyGeneryczne" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26337000" />
+    <option name="totallyTimeSpent" value="30128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -444,6 +442,12 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/day2/QueueSDATest.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -604,28 +608,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day2/QueueSDA.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/day2/QueueSDATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="156">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
           <folding>
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/day2/QueueSDATest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day2/QueueSDA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="340">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
           </folding>
         </state>
       </provider>

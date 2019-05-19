@@ -1,15 +1,17 @@
 package day2;
 
-public class QueueSDA {
+public class QueueSDA <T>{
+
+
 
     private final int capacity;
-    private final String[] kolejka;
+    private final T[] kolejka;
     private int tail;
     private int head;
     private int size;
 
     public QueueSDA(int capacity) {
-        this.kolejka = new String[capacity];
+        this.kolejka = (T[]) new Object[capacity];
         this.capacity = capacity;
         this.size = 0;
         this.head = 0;
@@ -21,14 +23,14 @@ public class QueueSDA {
     }
 
 
-    public void push(String x) {
+    public void push(T x) {
 
-        if(isFull()){
+        if (isFull()) {
             throw new QueueIsFullException();
         }
 
         this.kolejka[this.head] = x;
-        this.head++;
+        this.head = (this.head + 1) % this.capacity;
         this.size++;
     }
 
@@ -44,16 +46,32 @@ public class QueueSDA {
         return size;
     }
 
-    public String pop() {
+    public T pop() {
 
         if (isEmpty()) {
             throw new NoItemsInQueueException();
         }
-        String returnedObject = this.kolejka[this.tail];
+        T returnedObject = this.kolejka[this.tail];
         this.kolejka[this.tail] = null;
-        this.tail++;
+        this.tail = (this.tail + 1) % this.capacity;
         this.size--;
         return returnedObject;
+    }
+
+    public T peek() {
+        return this.kolejka[this.tail];
+    }
+
+    public String print() {
+        String elements = "[ ";
+        for (int i = this.tail; i < this.size; i++) {
+            elements += this.kolejka[i];
+            if (i + 1 != this.size)
+                elements += ", ";
+            }
+
+        elements += " ]";
+        return String.format("size: %d, elements: %s", this.size, elements);
     }
 }
 
